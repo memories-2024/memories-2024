@@ -42,7 +42,9 @@ const Gallery = ({ images, repo }) => {
 // Fetch the list of repositories for static paths
 export async function getStaticPaths() {
   const repos = [
-    'abc'
+    'prewedding',
+    'prewedding-raw',
+    'selected_photos_for_album'
   ];
 
   const paths = repos.map(repo => ({ params: { repo } }));
