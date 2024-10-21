@@ -7,7 +7,7 @@ const Gallery = ({ images, repo }) => {
       <h1>2022 - {repo}</h1>
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(100px, 1fr))',
         gap: '10px',
       }}>
         {images.map((image, index) => (
