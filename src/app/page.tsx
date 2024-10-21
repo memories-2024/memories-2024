@@ -4,7 +4,9 @@ import '../app/globals.css';
 
 export default function Home() {
   const repos = [
-    'abc'
+    'prewedding',
+    'prewedding-raw',
+    'selected_photos_for_album'
   ];
 
   return (
