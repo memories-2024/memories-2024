@@ -4,7 +4,7 @@ import { fetchImages } from '../lib/github';
 const Gallery = ({ images, repo }) => {
   return (
     <div>
-      <h1>2022 - {repo}</h1>
+      <h1>2024 - {repo}</h1>
       <div style={{
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fill, minmax(100px, 1fr))',
