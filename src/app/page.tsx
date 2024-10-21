@@ -18,7 +18,7 @@ export default function Home() {
             className="border border-gray-300 rounded-lg p-4 bg-white shadow-sm hover:shadow-md transition-shadow dark:bg-gray-700 dark:border-gray-600"
           >
             <a
-              href={`/memories-2022/${repo}`}
+              href={`/memories-2024/${repo}`}
               className="text-blue-600 hover:text-blue-800 font-mono text-sm dark:text-blue-400 dark:hover:text-blue-600"
             >
               {repo}
