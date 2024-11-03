@@ -44,7 +44,8 @@ export async function getStaticPaths() {
   const repos = [
     'prewedding',
     'prewedding-raw',
-    'selected_photos_for_album'
+    'selected_photos_for_album',
+    'Bhai-bij'
   ];
 
   const paths = repos.map(repo => ({ params: { repo } }));
