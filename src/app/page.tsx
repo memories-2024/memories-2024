@@ -6,7 +6,8 @@ export default function Home() {
   const repos = [
     'prewedding',
     'prewedding-raw',
-    'selected_photos_for_album'
+    'selected_photos_for_album',
+    'Bhai-bij'
   ];
 
   return (
